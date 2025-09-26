@@ -78,7 +78,7 @@
   }
 
   .dark {
-    --background: 22 47% 4%;
+    --background: 239, 100%, 2%;
     --foreground: 213 31% 91%;
 
     --card: 222 47% 8%;
@@ -146,14 +146,14 @@
           hover:scale-105 active:scale-95;
 }
 
-@utility start {
+@utility star {
   @apply absolute rounded-full bg-white;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
 }
 
 @utility meteor {
-  @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
-  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+  @apply absolute bg-linear-to-r from-yellow-200 via-orange-500 to-red-700 rounded-full;
+  box-shadow: 0 0 10px 5px rgba(251, 183, 183, 0.4);
 }
 
 #root {
