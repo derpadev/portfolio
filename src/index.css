@@ -153,7 +153,7 @@
 
 @utility meteor {
   @apply absolute bg-linear-to-r from-yellow-200 via-orange-500 to-red-700 rounded-full;
-  box-shadow: 0 0 10px 5px rgba(251, 183, 183, 0.4);
+  box-shadow: 0 0 10px 5px rgba(151, 33, 0, 1);
 }
 
 #root {

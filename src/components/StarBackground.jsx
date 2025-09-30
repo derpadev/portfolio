@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 
 export const StarBackground = () => {
 
-        // Stars
         const [stars, setStars] = useState([]);
         const [meteor, setMeteor] = useState([]);
 
@@ -12,6 +11,7 @@ export const StarBackground = () => {
             generateStars();
             generateMeteor();
 
+            // handle different screen sizes 
             const handleResize = () => {
                 generateStars();
             };
