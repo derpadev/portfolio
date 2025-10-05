@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Yummy Math",
     description: "description",
-    image: "/projects/project1.png",
+    image: "projects/project1.png",
     tags: ["Skill", "Skill", "Skill"],
     demoURL: "TO URL",
     githubURL: "TO GITHUB",
@@ -25,7 +25,7 @@ const projects = [
     title: "Automatic Conveyer Belt Sorting System",
     description: "description",
     image: "projects/project3.png",
-    tags: ["Skill ", "Skill ", "Skill "],
+    tags: ["Skill", "Skill", "Skill"],
     demoURL: "TO URL",
     githubURL: "TO GITHUB",
   },
@@ -68,7 +68,7 @@ export const ProjectSection = () => {
                   ))}
                 </div>
 
-                <h3 className="text-xl font-semi-bold mb-2">{project.title}</h3>
+                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
 
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
