@@ -2,23 +2,23 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  { name: "HTML/CSS", level: 20, category: "frontend" },
-  { name: "HTML/CSS", level: 50, category: "frontend" },
-  { name: "HTML/CSS", level: 67, category: "frontend" },
-  { name: "HTML/CSS", level: 88, category: "frontend" },
-  { name: "HTML/CSS", level: 23, category: "frontend" },
   { name: "HTML/CSS", level: 80, category: "frontend" },
+  { name: "JavaScript", level: 70, category: "frontend" },
+  { name: "React.js", level: 40, category: "frontend" },
+  { name: "Next.js", level: 30, category: "frontend" },
+  { name: "Tailwind CSS", level: 55, category: "frontend" },
 
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  { name: "C", level: 85, category: "backend" },
+  { name: "Node.js", level: 35, category: "backend" },
+  { name: "Python", level: 65, category: "backend" },
 
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Verilog HDL", level: 65, category: "tools" },
+  { name: "Git/GitHub", level: 80, category: "tools" },
+  { name: "NPM", level: 90, category: "tools" },
+  { name: "Vercel", level: 60, category: "tools" },
+  { name: "VS Code", level: 90, category: "tools" },
+  { name: "Vivado", level: 75, category: "tools" },
+  { name: "PuTTY", level: 90, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
